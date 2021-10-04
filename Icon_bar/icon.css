@@ -1,0 +1,46 @@
+.icon {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    margin-left: 42%;
+  }
+  
+  .icon a {
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon i{
+  transition: transform 6s;
+   border-radius:20px;
+  }
+  .fa-facebook:hover{
+    color: rgb(0, 47, 255);
+  }
+  .fa-twitter:hover{
+    color: rgb(0, 153, 255);
+  }
+  .fa-google:hover{
+    color: rgb(255, 0, 43);
+  }
+  .fa-linkedin:hover{
+    color: rgb(111, 0, 255);
+  }
+  .fa-youtube:hover{
+    color: rgb(255, 0, 0);
+  }
+  .Social{
+    background: #000000;
+    color: white;
+  }
+  @media(max-width: 600px){
+    .icon{
+      margin-left: 30%;
+   }
+  }
+  @media(max-width: 350px){
+    .icon{
+        margin-left: 25%;
+      }
+  }
